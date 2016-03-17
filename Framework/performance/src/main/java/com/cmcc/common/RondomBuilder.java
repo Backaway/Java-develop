@@ -4,18 +4,11 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Random;
 
-/**
- * 字符随机生成类
- * 
- * @author ASUS
- *
- */
-public class PassWord {
+public class RondomBuilder {
 
 	/**
 	 * 密码类型枚举
 	 * 
-	 * @author ASUS
 	 */
 	public static enum TYPE {
 		/**
@@ -69,7 +62,7 @@ public class PassWord {
 	private static Random random = new Random();
 
 	public static void main(String[] args) {
-		System.out.println(PassWord.getRandom(24, PassWord.TYPE.CAPITAL));
+		System.out.println(RondomBuilder.getRandom(24, RondomBuilder.TYPE.CAPITAL));
 	}
 
 	/**
