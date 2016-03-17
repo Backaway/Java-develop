@@ -1,17 +1,3 @@
-/*
- * Project: performance
- * 
- * File Created at Jan 19, 2016
- * 
- * Copyright 2016 CMCC Corporation Limited.
- * All rights reserved.
- *
- * This software is the confidential and proprietary information of
- * ZYHY Company. ("Confidential Information").  You shall not
- * disclose such Confidential Information and shall use it only in
- * accordance with the terms of the license agreement you entered into
- * with cmccim.com.
- */
 package com.cmcc.dubbo.consumer;
 /**
  * @Type TpsTestConsumer.java
