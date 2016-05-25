@@ -8,7 +8,11 @@
 	<name>Demo Parent</name>
 
 	<modules>
-		<module>ProtoBuf</module>
+		<module>protobuf</module>
+		<module>mina</module>
+		<module>kafka</module>
+		<module>rxjava</module>
+		<module>dubbo</module>
 	</modules>
 
 	<properties>
